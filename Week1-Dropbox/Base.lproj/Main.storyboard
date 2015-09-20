@@ -112,21 +112,17 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ejs-eH-ncl" userLabel="Sign In Button">
-                                <rect key="frame" x="0.0" y="468" width="320" height="43"/>
+                                <rect key="frame" x="0.0" y="425" width="320" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="3xU-tw-oV4" kind="push" identifier="createAccountSegue" id="1jh-US-Mh6"/>
+                                    <segue destination="tU7-gX-0vk" kind="push" id="t9i-vl-VWw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ypz-eo-ItF" userLabel="Create Account Button">
-                                <rect key="frame" x="10" y="478" width="320" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jNY-8S-Ebf" userLabel="Sign In Button">
-                                <rect key="frame" x="0.0" y="424" width="320" height="43"/>
+                                <rect key="frame" x="0.0" y="470" width="320" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="tU7-gX-0vk" kind="push" id="lPq-Eq-cle"/>
+                                    <segue destination="3xU-tw-oV4" kind="push" identifier="createAccountSegue" id="Zoc-Jy-arb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -166,18 +162,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uzb-qG-cfJ" userLabel="Create Account Button">
+                                <rect key="frame" x="0.0" y="469" width="320" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="3xU-tw-oV4" kind="push" id="aJf-M5-3fb"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="r29-O6-69F" userLabel="Sign In Button">
-                                <rect key="frame" x="0.0" y="426" width="320" height="39"/>
+                                <rect key="frame" x="0.0" y="428" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="tU7-gX-0vk" kind="push" identifier="signInSegue" id="tpJ-7T-4Ic"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uzb-qG-cfJ" userLabel="Create Account Button">
-                                <rect key="frame" x="0.0" y="468" width="320" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="3xU-tw-oV4" kind="push" id="yBy-Qa-icU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -952,8 +948,8 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="neC-Ab-KWF"/>
-        <segue reference="1jh-US-Mh6"/>
+        <segue reference="t9i-vl-VWw"/>
+        <segue reference="Zoc-Jy-arb"/>
         <segue reference="5l1-0Z-rdq"/>
     </inferredMetricsTieBreakers>
 </document>
