@@ -1,9 +1,9 @@
 
-# Week1-Dropbox
+# Week-1 Assignment: Dropbox
 
 ## Project Requirements
 Preview:  
-GIF
+![demo](https://github.com/christophersybico/Week1-Dropbox/blob/master/Demos/week1_dropbox_demo.gif)
 
 Tasks:  
 ✔︎ User can tap through the 3 welcome screens.  
@@ -14,8 +14,11 @@ Tasks:
 ✔ User can tap the area for "Having trouble signing in?".  
 ✔ User can log out from the Settings screen.  
 
-## Project Requirements
+## Optional
 Preview:  
+[gif]
+
+Tasks:
 ✘ Add a detail view for one of the files and implement favoriting the file.  
 ✘ Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.  
 ✘ You should be able to swipe through the welcome screens instead of just tapping them.
