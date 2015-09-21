@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70CC6981BAFB94F00FFEA92 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70CC6971BAFB94F00FFEA92 /* WelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A762FB011BADE28A00BABF1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A762FB001BADE28A00BABF1C /* AppDelegate.swift */; };
 		A762FB031BADE28A00BABF1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A762FB021BADE28A00BABF1C /* ViewController.swift */; };
 		A762FB061BADE28A00BABF1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A762FB041BADE28A00BABF1C /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A70CC6971BAFB94F00FFEA92 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A762FAFD1BADE28A00BABF1C /* Week1-Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week1-Dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A762FB001BADE28A00BABF1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A762FB021BADE28A00BABF1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				A762FB361BADFB9100BABF1C /* SettingsViewController.swift */,
 				A762FB381BAE793E00BABF1C /* SignInViewController.swift */,
 				A762FB3A1BAE7E7A00BABF1C /* PhotosViewController.swift */,
+				A70CC6971BAFB94F00FFEA92 /* WelcomeViewController.swift */,
 			);
 			path = "Week1-Dropbox";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A762FB3B1BAE7E7A00BABF1C /* PhotosViewController.swift in Sources */,
+				A70CC6981BAFB94F00FFEA92 /* WelcomeViewController.swift in Sources */,
 				A762FB331BADF0A800BABF1C /* CreateAccountViewController.swift in Sources */,
 				A762FB311BADEF5800BABF1C /* SignInRootViewController.swift in Sources */,
 				A762FB371BADFB9100BABF1C /* SettingsViewController.swift in Sources */,
@@ -512,6 +516,7 @@
 				A762FB271BADE28B00BABF1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A762FB281BADE28B00BABF1C /* Build configuration list for PBXNativeTarget "Week1-DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				A762FB2A1BADE28B00BABF1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A762FB2B1BADE28B00BABF1C /* Build configuration list for PBXNativeTarget "Week1-DropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				A762FB2D1BADE28B00BABF1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
