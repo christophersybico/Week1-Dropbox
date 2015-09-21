@@ -46,7 +46,7 @@
                                         <rect key="frame" x="670" y="383" width="261" height="46"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="hcE-wa-qjg" kind="modal" animates="NO" id="38B-GV-hf8"/>
+                                            <segue destination="hcE-wa-qjg" kind="modal" identifier="createAccountSegue" animates="NO" id="38B-GV-hf8"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -913,8 +913,8 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FYy-dw-tqa"/>
-        <segue reference="Zoc-Jy-arb"/>
         <segue reference="t9i-vl-VWw"/>
+        <segue reference="9KP-pw-U0f"/>
+        <segue reference="Zoc-Jy-arb"/>
     </inferredMetricsTieBreakers>
 </document>
