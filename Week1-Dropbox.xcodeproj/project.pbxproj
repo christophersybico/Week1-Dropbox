@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BACBEA91BB12F0D00135F01 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BACBEA81BB12F0D00135F01 /* FavoriteViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0BACBEAB1BB1305100135F01 /* FavoriteTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BACBEAA1BB1305100135F01 /* FavoriteTabViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A70CC6981BAFB94F00FFEA92 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70CC6971BAFB94F00FFEA92 /* WelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A762FB011BADE28A00BABF1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A762FB001BADE28A00BABF1C /* AppDelegate.swift */; };
 		A762FB031BADE28A00BABF1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A762FB021BADE28A00BABF1C /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BACBEA81BB12F0D00135F01 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		0BACBEAA1BB1305100135F01 /* FavoriteTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTabViewController.swift; sourceTree = "<group>"; };
 		A70CC6971BAFB94F00FFEA92 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A762FAFD1BADE28A00BABF1C /* Week1-Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week1-Dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A762FB001BADE28A00BABF1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				A762FB381BAE793E00BABF1C /* SignInViewController.swift */,
 				A762FB3A1BAE7E7A00BABF1C /* PhotosViewController.swift */,
 				A70CC6971BAFB94F00FFEA92 /* WelcomeViewController.swift */,
+				0BACBEA81BB12F0D00135F01 /* FavoriteViewController.swift */,
+				0BACBEAA1BB1305100135F01 /* FavoriteTabViewController.swift */,
 			);
 			path = "Week1-Dropbox";
 			sourceTree = "<group>";
@@ -282,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BACBEAB1BB1305100135F01 /* FavoriteTabViewController.swift in Sources */,
+				0BACBEA91BB12F0D00135F01 /* FavoriteViewController.swift in Sources */,
 				A762FB3B1BAE7E7A00BABF1C /* PhotosViewController.swift in Sources */,
 				A70CC6981BAFB94F00FFEA92 /* WelcomeViewController.swift in Sources */,
 				A762FB331BADF0A800BABF1C /* CreateAccountViewController.swift in Sources */,

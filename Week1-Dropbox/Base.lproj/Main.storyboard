@@ -218,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X9o-7D-uqc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2860" y="1372"/>
+            <point key="canvasLocation" x="2966" y="1377"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="N2l-bz-sED">
@@ -650,7 +650,7 @@
         <!--Favorites-->
         <scene sceneID="5Lq-Za-S8m">
             <objects>
-                <viewController id="sYz-YQ-VWT" sceneMemberID="viewController">
+                <viewController id="sYz-YQ-VWT" customClass="FavoriteTabViewController" customModule="Week1_Dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="38C-iX-CX3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -719,6 +719,13 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="454"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="scZ-01-TLu">
+                                <rect key="frame" x="0.0" y="269" width="315" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="dni-kS-x6w" kind="push" id="hy5-Zm-d28"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -727,6 +734,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6RM-KN-ML8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1863" y="4446"/>
+        </scene>
+        <!--Getting Started.pdf-->
+        <scene sceneID="i9p-pK-sFh">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="dni-kS-x6w" customClass="FavoriteViewController" customModule="Week1_Dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kPY-br-lT2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Getting Started" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o4i-8L-bc9">
+                                <rect key="frame" x="32" y="114" width="118" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="4yK-OS-QOP">
+                                <rect key="frame" x="27" y="153" width="255" height="303"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Dropbox is a home for all your photos, docs, videos, and files. Anything you add to Dropbox will automatically show up on all your computers, phones and even the Dropbox website — so you can access your stuff from anywhere.
+
+Dropbox also makes it super easy to share with others, whether you're a student or professional, parent or grandparent. Even if you accidentally spill a latte on your laptop, have no fear! Relax knowing that your stuff is safe in Dropbox and will never be lost.</string>
+                                <color key="textColor" red="0.28522059319999998" green="0.29771578310000002" blue="0.3494656384" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iSs-7q-VFq">
+                                <rect key="frame" x="139" y="478" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" backgroundImage="btn_favorites"/>
+                                <state key="selected" backgroundImage="btn_favorites_active"/>
+                                <connections>
+                                    <action selector="favoriteButtonTouch:" destination="dni-kS-x6w" eventType="touchUpInside" id="cwg-tJ-LqB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Getting Started.pdf" id="KYs-rM-6AT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qCK-aS-07r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1869" y="5171"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="NHD-ff-YPr">
@@ -830,6 +881,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="btn_favorites" width="30" height="30"/>
+        <image name="btn_favorites_active" width="30" height="30"/>
         <image name="create1" width="320" height="568"/>
         <image name="create5" width="320" height="568"/>
         <image name="empty_favorites" width="320" height="454"/>
