@@ -23,5 +23,5 @@ Tasks:
 
 ## Log Hours
 Sep 16, 2015: 2 Hours  
-Sep 19, 2015: 6 Hours
+Sep 19, 2015: 6 Hours  
 Sep 20, 2015: 6 Hours  
