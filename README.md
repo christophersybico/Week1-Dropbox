@@ -18,10 +18,11 @@ Tasks:
 
 Tasks:  
 ✘ Add a detail view for one of the files and implement favoriting the file.  
-✘ Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.  
+✔ Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.  
 ✔ You should be able to swipe through the welcome screens instead of just tapping them.  
 
 ## Log Hours
 Sep 16, 2015: 2 Hours  
 Sep 19, 2015: 6 Hours  
-Sep 20, 2015: 6 Hours  
+Sep 20, 2015: 6 Hours
+Sep 21, 2015: 3 Hours
